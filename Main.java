@@ -7,11 +7,11 @@ public class Main {
     public static void main(String[] args) {
        Scanner scan = new Scanner(System.in);
         System.out.println("Lütfen bir sayı girin");
-       int tek = scan.nextInt();
-       if (tek%2==0){
-           System.out.println("Lirdiğiniz sayı çift");
+       int single = scan.nextInt();
+       if (single%2==0){
+           System.out.println("Girdiğiniz sayı çift");
        }else{
-           System.out.println("Lirdiğiniz sayı tek");
+           System.out.println("Girdiğiniz sayı tek");
        }
 
 
